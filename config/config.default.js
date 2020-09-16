@@ -25,8 +25,6 @@ module.exports = appInfo => {
     }
   }
 
-  config.proxy = true;
-
   // add your user config here
   const userConfig = {
     // myAppName: 'egg',
