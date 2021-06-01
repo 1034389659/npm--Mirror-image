@@ -5,8 +5,7 @@
  */
 module.exports = app => {
   const { router, controller } = app;
-  router.get('/', controller.home.index);
-  router.all('/cypress', controller.cypress.index);
-  router.all('/cypress/:path(.*)', controller.cypress.index);
-  router.all('/node-sass/:path(.*)', controller.sass.index)
+  router.get('/', controller.home.hallo);
+  router.all('/:npm', controller.home.npm)
+  router.all('/:npm/:path(.*)', controller.home.npm)
 };
