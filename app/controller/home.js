@@ -68,9 +68,10 @@ class HomeController extends Controller {
         opacity:0.6;
         font-weight: 600;
         margin-top:10px;
+
       }
       .container {
-        width: 90%; max-width:1200px; margin: 50px auto;
+        width: 90%; max-width:1200px; margin: 35px auto;
       }
       pre{
         display: block;
@@ -84,8 +85,9 @@ class HomeController extends Controller {
         background-color: #f5f5f5;
         border: 1px solid #ccc;
         border-radius: 2px;
+        white-space: normal;
       }
-      footer{margin: 20px auto; width: 100%; text-align: center;color:#999;font-size:14px;}
+      footer{margin: 50px auto; width: 100%; text-align: center;color:#999;font-size:14px;border-top:1px solid rgba(0,0,0,.1);padding-top:20px;}
     </style>
 
   <head>
@@ -99,7 +101,6 @@ class HomeController extends Controller {
         item.innerHTML = item.innerHTML.replace(/\s+$/mg, '');
       });
     </script>
-    <hr/>
     <footer>
       Copyright &copy; <a href="https://github.com/reruin/npm-mirror" target="_blank">npm-mirror</a>
     </footer>

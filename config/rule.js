@@ -7,6 +7,13 @@ module.exports = [
     dist:'http://cdn.npm.taobao.org/dist/node-sass'
   },
   {
+    name:'puppeteer',
+    desc:'A high-level API to control headless Chrome over the DevTools Protocol.',
+    repo:'https://github.com/puppeteer/puppeteer/',
+    usage:'yarn config set puppeteer_download_host {host}/chromium-browser-snapshots -g',
+    dist:'https://cdn.npm.taobao.org/dist/chromium-browser-snapshots/'
+  },
+  {
     name:'cypress',
     desc:'Fast, easy and reliable testing for anything that runs in a browser.',
     repo:'https://www.cypress.io',
